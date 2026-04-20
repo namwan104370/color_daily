@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Noto+Sans+Thai:wght@100..900&family=Sriracha&display=swap');
+* {
+  box-sizing: border-box;
+  font-family: "Noto Sans Thai", sans-serif;
+  text-decoration: none;
+}
+body {
+  background-color: #f1eed3;
+  margin: 0;
+}
+#head {
+  background-color: #110752;
+  color: #efe58d;
+  font-size: 1.7rem;
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#three-color {
+  margin-inline: 10px;
+}
+
+.main {
+  margin-top: 20px;
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  grid-template-columns: repeat(3, auto);
+}
+
+.items {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border-radius: 30px;
+  font-size: 1.3rem;
+  color: #563313;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 3px 3px #9e9d9d;
+}
+.items:first-child {
+  grid-column: 1 / span 2;
+  justify-content: left;
+  box-shadow: none;
+}
+ .choose-day {
+  color: #FFDF6C;
+  position: absolute;
+  left: 13%; 
+ }
+
+.box-1 {
+  background-color: #ec6e6e;
+}
+.box-2 {
+  background-color: #E9DB5F;
+}
+.box-3 {
+  background-color: #F587C3;
+}
+.box-4 {
+  background-color: #B0F27C;
+}
+.box-5 {
+  background-color: #F1AB6B;
+}
+.box-6 {
+  background-color: #90C0ED;
+}
+.box-7 {
+  background-color: #AA83AD;
+}

@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&family=Noto+Sans+Thai:wght@100..900&family=Sriracha&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Noto Sans Thai", sans-serif;
+  /* text-decoration: none; */
+}
+body {
+  background-color: #edd6d6;
+  margin: 0;
+}
+.main {
+  padding-block: 15px;
+}
+#head {
+  background-color: #ec6e6e;
+  color: #563313;
+  font-size: 1.7rem;
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#shirt {
+  margin-inline: 10px;
+}
+.section {
+  display: flex;
+}
+.add-background-color-darker {
+  background-color: #fdb4b4;
+}
+.letter {
+  padding-left: 25px;
+}
+.first-line {
+  font-size: x-large;
+  margin-bottom: 0;
+}
+.secon-line {
+  margin-top: 0;
+}
+.col {
+  width: 40%;
+}
+.circle {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  margin: 0.2rem;
+}
+.color-daily {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  height: 20vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
