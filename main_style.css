@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Itim&family=Noto+Sans+Thai:wght@100..900&family=Sriracha&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Itim&family=Noto+Sans+Thai:wght@100..900&family=Sriracha&display=swap");
 * {
   box-sizing: border-box;
   font-family: "Noto Sans Thai", sans-serif;
@@ -18,7 +18,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.box-text{
+.box-text {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,7 +32,7 @@ body {
   display: grid;
   grid-template-rows: repeat(3, auto);
   grid-template-columns: repeat(3, auto);
-  
+
   /* justify-content: center; */
   /* align-items: center; */
 }
@@ -55,69 +55,67 @@ body {
   justify-content: left;
   box-shadow: none;
 }
- .choose-day {
-  color: #FFDF6C;
+.choose-day {
+  color: #ffdf6c;
   position: absolute;
-  left: 3rem; 
-  
- }
+  left: 3rem;
+}
 
 .box-1 {
   background-color: #ec6e6e;
 }
 .box-2 {
-  background-color: #E9DB5F;
+  background-color: #e9db5f;
 }
 .box-3 {
-  background-color: #F587C3;
+  background-color: #f587c3;
 }
 .box-4 {
-  background-color: #B0F27C;
+  background-color: #b0f27c;
 }
 .box-5 {
-  background-color: #F1AB6B;
+  background-color: #f1ab6b;
 }
 .box-6 {
-  background-color: #90C0ED;
+  background-color: #90c0ed;
 }
 .box-7 {
-  background-color: #AA83AD;
+  background-color: #aa83ad;
 }
 
 /* normal Leptops , Desktop */
-@media (min-width:769px) {
-#three-color {
-  height: 5rem;
-}
-  #head{
+@media (min-width: 769px) {
+  #three-color {
+    height: 5rem;
+  }
+  #head {
     font-size: 3rem;
     height: 30vh;
   }
-  .main{
+  .main {
     margin-left: 14rem;
   }
-  .choose-day{
-left: 20rem;
+  .choose-day {
+    left: 20rem;
   }
   .items img {
     height: 10rem;
     /* width: 10rem; */
   }
-.items {
-  width: 10rem;
-  height: 10rem;
-  margin: 1.5rem;
-  border-radius: 30%;
-  font-size: 2.5rem;
-  color: #563313;
-  display: flex;
+  .items {
+    width: 10rem;
+    height: 10rem;
+    margin: 1.5rem;
+    border-radius: 30%;
+    font-size: 2.5rem;
+    color: #563313;
+    display: flex;
 
-
-  box-shadow: 0 0.2rem 0.3rem #9e9d9d;
-}
-.items:first-child {
-  grid-column: 1 / span 2;
-  justify-content: left;
-  box-shadow: none;
-}
+    box-shadow: 0 0.2rem 0.3rem #9e9d9d;
+  }
+  .items:first-child {
+    grid-column: 1 / span 2;
+    justify-content: left;
+    box-shadow: none;
+  }
 }
