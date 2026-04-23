@@ -18,6 +18,11 @@ body {
   justify-content: center;
   align-items: center;
 }
+.box-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 #three-color {
   margin-inline: 10px;
 }
@@ -27,19 +32,23 @@ body {
   display: grid;
   grid-template-rows: repeat(3, auto);
   grid-template-columns: repeat(3, auto);
+  
+  /* justify-content: center; */
+  /* align-items: center; */
 }
 
 .items {
-  width: 100px;
-  height: 100px;
-  margin: 10px;
-  border-radius: 30px;
+  width: 6rem;
+  height: 6rem;
+  margin: 0.6rem;
+  border-radius: 30%;
   font-size: 1.3rem;
   color: #563313;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0px 3px 3px #9e9d9d;
+
+  box-shadow: 0 0.2rem 0.3rem #9e9d9d;
 }
 .items:first-child {
   grid-column: 1 / span 2;
@@ -49,7 +58,8 @@ body {
  .choose-day {
   color: #FFDF6C;
   position: absolute;
-  left: 13%; 
+  left: 3rem; 
+  
  }
 
 .box-1 {
@@ -72,4 +82,42 @@ body {
 }
 .box-7 {
   background-color: #AA83AD;
+}
+
+/* normal Leptops , Desktop */
+@media (min-width:769px) {
+#three-color {
+  height: 5rem;
+}
+  #head{
+    font-size: 3rem;
+    height: 30vh;
+  }
+  .main{
+    margin-left: 14rem;
+  }
+  .choose-day{
+left: 20rem;
+  }
+  .items img {
+    height: 10rem;
+    /* width: 10rem; */
+  }
+.items {
+  width: 10rem;
+  height: 10rem;
+  margin: 1.5rem;
+  border-radius: 30%;
+  font-size: 2.5rem;
+  color: #563313;
+  display: flex;
+
+
+  box-shadow: 0 0.2rem 0.3rem #9e9d9d;
+}
+.items:first-child {
+  grid-column: 1 / span 2;
+  justify-content: left;
+  box-shadow: none;
+}
 }
