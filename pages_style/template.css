@@ -61,3 +61,12 @@ body {
   align-items: flex-end;
   justify-content: center;
 }
+@media (min-width: 769px) {
+.letter  {
+  margin-left: 25%;
+  }
+.color-daily{
+  margin-left: 0%;
+
+}
+}
